@@ -1,9 +1,11 @@
 import { createRoot } from "react-dom/client"
+import NavigationBar from "./components/NavigationBar";
 
 const App = () => {
     return (
         <div>
-
+            <NavigationBar />
+            <h1>Above It All</h1>
         </div>
     )
 };

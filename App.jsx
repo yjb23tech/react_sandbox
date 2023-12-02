@@ -1,10 +1,12 @@
 import { createRoot } from "react-dom/client"
 import NavigationBar from "./components/NavigationBar";
+import TravelCard from "./components/TravelCard";
 
 const App = () => {
     return (
         <div>
             <NavigationBar />
+            <TravelCard />
         </div>
     )
 };

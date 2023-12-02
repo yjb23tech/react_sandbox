@@ -13,13 +13,13 @@ div > h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 5px;
     background-color: #F55A5A;
 }
 
 .navigation-bar > img {
-    height: 14px;
-    width: 14px;
+    height: 2em;
+    width: 2em;
 }
 
 .navigation-bar > h3 {

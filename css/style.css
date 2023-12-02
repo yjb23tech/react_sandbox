@@ -2,12 +2,6 @@
     box-sizing: border-box;
 }
 
-div > h1 {
-
-    color: blue;
-
-}
-
 .navigation-bar {
 
     display: flex;
@@ -23,11 +17,39 @@ div > h1 {
 }
 
 .navigation-bar > h3 {
-
+    font-family: Inter;
+    font-weight: 500;
     color: whitesmoke;
 }
 
+.travel-card {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
 .travel-card > img {
-    height: 150px;
-    width: 150px;
+    height: 168px;
+    width: 125px;
+    border-radius: 9px;
+}
+
+.travel-card-content {
+    padding: 15px;
+}
+
+.location-details > span {
+    padding-left: 5px;
+}
+
+.google-maps-link > a {
+    color: #918E9B;
+    text-decoration: none;
+    text-decoration: underline;
+    
+}
+
+.location-details > img {
+    height: 0.75em;
+    width: 0.75em;
 }

@@ -7,6 +7,8 @@ const App = () => {
         <div>
             <NavigationBar />
             <TravelCard />
+            <TravelCard />
+            <TravelCard />
         </div>
     )
 };

@@ -26,6 +26,7 @@
     display: flex;
     flex-direction: row;
     padding: 20px;
+    justify-content: center;
 }
 
 .travel-card > img {
@@ -38,8 +39,15 @@
     padding: 15px;
 }
 
+.location-details {
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 7px;
+}
+
 .location-details > span {
     padding-left: 5px;
+   
 }
 
 .google-maps-link > a {
@@ -52,4 +60,27 @@
 .location-details > img {
     height: 0.75em;
     width: 0.75em;
+}
+
+.location-title {
+    font-family: Inter;
+    font-weight: 700;
+    color: #2B283A;
+    padding-top: 0;
+    border-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.location-dates {
+    padding-top: 0;
+    border-top: 0;
+    margin-top: 0;
+}
+
+.location-text-box {
+    height: 45px;
+    width: 400px;
 }
